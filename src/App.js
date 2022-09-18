@@ -24,7 +24,11 @@ function App() {
   useEffect(() => {
     fetchImages();
   }, []);
-  return <div className="App"><p>hello world</p></div>;
+  return (
+    <div className="App">
+      <p>hello world</p>
+    </div>
+  );
 }
 
 export default App;
