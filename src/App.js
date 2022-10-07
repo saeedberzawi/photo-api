@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [photos, setPhotos] = useState([]);
   const [page, setPage] = useState(1);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("blue");
   const mounted = useRef(false);
   const [newImages, setNewImages] = useState(false);
   const fetchImages = async () => {
